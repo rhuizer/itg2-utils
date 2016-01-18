@@ -1,0 +1,3 @@
+[submodule "src/ds1963s-utils"]
+	path = src/ds1963s-utils
+	url = git://github.com/scrippie/ds1963s-utils.git
