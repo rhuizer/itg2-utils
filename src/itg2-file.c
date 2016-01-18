@@ -41,8 +41,7 @@ static char *__errors[] = {
 	"Invalid verification block"
 };
 
-/* XXX: not thread safe or reentrant. */
-static int __error = 0;
+static __thread int __error = 0;
 
 static int __get_patch_file_key(struct itg2_file *file)
 {
